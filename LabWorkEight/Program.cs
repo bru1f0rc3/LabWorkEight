@@ -54,7 +54,7 @@ namespace LabWorkEight
             double answers = 1;
             for(int i = 0; i < r.Length; i++)
             {
-                if (r[i] % 2 != 0)
+                if (i % 2 != 0)
                 {
                     if (r[i] > 0)
                     {
